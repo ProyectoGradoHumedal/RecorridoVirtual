@@ -1,0 +1,70 @@
+# --- Unity (carpetas que NO deben ir al repo) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/        # configuraciones locales, no necesarias para otros devs
+sysinfo.txt
+
+# --- Unity caches ---
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# --- IDEs y compiladores ---
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb.meta
+*.svd.meta
+*.DotSettings.user
+
+# --- Builds (archivos finales, NO fuentes) ---
+*.apk
+*.aab
+*.app
+*.exe
+*.xcodeproj
+*.unitypackage
+
+# --- WebGL/Build output ---
+*.data
+*.symbols
+*.wasm
+*.js
+*.map
+*.br
+*.gz
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Addressables (si usas) ---
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# --- Visual Scripting (Bolt, Unity Visual Scripting) ---
+/[Aa]ssets/Unity.VisualScripting.Generated/
+
+# --- Rider plugin (opcional) ---
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# --- No ignores (asegúrate de versionar estas carpetas) ---
+!Assets/
+!ProjectSettings/
+!Packages/
